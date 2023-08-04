@@ -4,25 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>FileShareBox</title>
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="navbar-grid">
+        <div class="nav-logo">
+
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Our App</a>
+        </div>
+        <div class="nav-btn">
+            <a href="tel:+233201373156" class="phone"><i class="fas fa-phone"></i> Call Us</a>
+        </div>
+    </div>
     <div class="container">
         <h1>FileShareBox</h1>
         <p>Share files with your friends by uploading them below. Once uploaded, you'll get a link to share, and your
             friends can easily access the file using that link.</p>
         <input type="file" id="fileInput">
-        <button id="shareButton">Share File</button>
+        <button id="shareButton">Generate Link</button>
         <div class="link">
             <p>Copy and share the file link:</p>
             <input type="text" id="fileLink" readonly>
+            <br>
             <button id="copyButton">Copy Link</button>
         </div>
     </div>
+    <div class="footer">
+        <div class="center-logo">
+    
+        </div>
+        <p>&copy; 2023 FileShareBox. All rights reserved. | Designed by <a href="tel:+233201373156" target="_blank">
+            Nathaniel Kwabena Larbi Arthur
+        </a></p>
+    </div>
     <script src="./app.js">
-      
+
     </script>
 </body>
 
