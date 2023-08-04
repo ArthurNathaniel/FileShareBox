@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FileShareBox</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">    
 </head>
 
 <body>
     <div class="container">
         <h1>FileShareBox</h1>
         <p>Share files with your friends by uploading them below. Once uploaded, you'll get a link to share, and your
-            friends can easily download the file using that link.</p>
+            friends can easily access the file using that link.</p>
         <input type="file" id="fileInput">
         <button id="shareButton">Share File</button>
-        <a id="downloadLink" style="display: none;">Download File</a>
+        <div class="link">
+            <p>Copy and share the file link:</p>
+            <input type="text" id="fileLink" readonly>
+            <button id="copyButton">Copy Link</button>
+        </div>
     </div>
-    <script src="app.js"></script>
+    <script src="./app.js">
+      
+    </script>
 </body>
 
 </html>

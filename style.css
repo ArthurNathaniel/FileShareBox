@@ -1,39 +1,44 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-.container {
-    text-align: center;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
 
-h1 {
-    margin-bottom: 20px;
-}
+    .container {
+        text-align: center;
+    }
 
-input[type="file"] {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
+    h1 {
+        margin-bottom: 20px;
+    }
 
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+    input[type="file"] {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
 
-a {
-    padding: 10px 20px;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-}
+    button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .link {
+        display: none;
+    }
+
+    
